@@ -14,6 +14,15 @@
     #fae3fb 100%
   );
 }
+.nav-gradient {
+  background: linear-gradient(
+    74.71deg,
+    #fce9f3 -8%,
+    #fcf6fc 21.77%,
+    #c5eaed 59.58%,
+    #fae3fb 100%
+  );
+}
 .text-grad {
   color: linear-gradient(to right, #0076ce, #9400d3);
 }

@@ -7,7 +7,7 @@ const HomeLayout = () => {
 
   const isPageLoading = navigation.state === "loading";
   return (
-    <div>
+    <div className="">
       <Navbar />
       <section>{isPageLoading ? <div>Loading...</div> : <Outlet />}</section>
       <Footer />

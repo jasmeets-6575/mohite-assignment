@@ -3,7 +3,7 @@ import { BsChevronDown } from "react-icons/bs";
 
 const Navbar = () => {
   return (
-    <div className="bg-gradient ">
+    <div className="nav-gradient ">
       <div className="w-[90%] py-3 mx-auto flex justify-between items-center ">
         <div className=" w-1/2 font-bold flex justify-around items-baseline space-x-16">
           <Logo />
