@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.gradient {
+  background: linear-gradient(to right, #0076ce, #9400d3);
+}
+.text-grad {
+  color: linear-gradient(to right, #0076ce, #9400d3);
+}

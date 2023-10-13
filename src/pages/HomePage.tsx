@@ -1,4 +1,10 @@
+import Hero from "../components/Hero";
+
 const HomePage = () => {
-  return <div>HomePage</div>;
+  return (
+    <div className="w-[90%] mx-auto">
+      <Hero />
+    </div>
+  );
 };
 export default HomePage;

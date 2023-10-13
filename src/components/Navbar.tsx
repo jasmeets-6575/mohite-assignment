@@ -4,7 +4,7 @@ import { BsChevronDown } from "react-icons/bs";
 const Navbar = () => {
   return (
     <div className="w-[90%] py-3 mx-auto flex justify-between items-center ">
-      <div className="font-bold flex justify-around items-baseline space-x-20">
+      <div className=" w-1/2 font-bold flex justify-around items-baseline space-x-16">
         <Logo />
         <div className="flex items-center space-x-1">
           <span>Solutions</span>
@@ -12,6 +12,10 @@ const Navbar = () => {
         </div>
         <div className="flex items-center space-x-1">
           <span>Features</span>
+          <BsChevronDown className="text-[#0076CE] text-lg" />
+        </div>
+        <div className="flex items-center space-x-1">
+          <span>Blogs</span>
           <BsChevronDown className="text-[#0076CE] text-lg" />
         </div>
         <div className="flex items-center space-x-1">
