@@ -9,9 +9,7 @@ const HomeLayout = () => {
   return (
     <div>
       <Navbar />
-      <section className="mx-auto my-0 py-5 px-2 w-[90vw] ">
-        {isPageLoading ? <div>Loading...</div> : <Outlet />}
-      </section>
+      <section>{isPageLoading ? <div>Loading...</div> : <Outlet />}</section>
       <Footer />
     </div>
   );
